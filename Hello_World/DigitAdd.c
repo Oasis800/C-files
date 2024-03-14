@@ -9,16 +9,16 @@
 int main()
 {
     int num[10], sum = 0, count;
-    printf("How many numbers are you going to deal with?\n");
+    printf("How many digits are you going to deal with?\n");
     scanf("%d", &count);
-    printf("Enter numbers one by one:\n");
+    printf("Enter digits one by one:\n");
     for(int i = 0; i < count; i++)
     scanf("%d", &num[i]);
 
     for(int i = 0; i < count; i++)
      sum += num[i] ;
 
-    printf("First value for sum: %d\n", sum);
+    printf("Sum of digits: %d\n", sum);
 
     return 0;
 }
