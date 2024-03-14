@@ -2,7 +2,7 @@
 /**
  * main - Entry point
  * A program that prints  adds 
- * the digits of a number till it's less than 10
+ * the digits of a number 
  * Return - Always(0);
  */
 
