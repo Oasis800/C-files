@@ -19,6 +19,9 @@ int main()
      sum += num[i] ;
 
     printf("Sum of digits: %d\n", sum);
+    printf("The actual number is: ");
+      for(int i = 0; i < count; i++)
+    printf("%d", num[i]);
 
     return 0;
 }
